@@ -19,7 +19,7 @@ function Slider() {
   return (
     <div>
         <HiChevronLeft className='text-white text-[30px] absolute mx-8 mt-[150px] cursor-pointer'/>
-        <HiChevronRight/>
+        <HiChevronRight className='text-white text-[30px] absolute mx-8 mt-[150px] cursor-pointer right-0'/>
     <div className='flex overflow-x-auto w-full px-16 py-4 scrollbar-hide'>
         {movieList.map((item, index)=>{
             return(
