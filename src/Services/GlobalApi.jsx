@@ -8,9 +8,9 @@
 
     //https://api.themoviedb.org/3/trending/all/day?api_key=3213ea69130f58a230ae93a5bb019918
     const getTrendingVideos=axios.get(`${movieBaseUrl}/trending/all/day?api_key=${api_key}`);
-    const getMoviesByGenreId = (id) => axios.get(getMoviesByGenreId+"&with_genres="+id)
+    const getMovieByGenreId = (id) => axios.get(`${movieByGenreBaseURL}&with_genres=${id}`);
 
     export default{
         getTrendingVideos,
-        getMoviesByGenreId
+        getMovieByGenreId
     }
