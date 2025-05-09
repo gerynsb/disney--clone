@@ -7,7 +7,7 @@ Currently, two official plugins are available:
 update
 
 # Tampilan
-Ini adalah tampilan dari website yang saya buat ini dari latihan dengan menggunakan react vite.
+Ini adalah tampilan dari website yang saya buat ini dari latihan dengan menggunakan react vite dan API dari disney secara real time.
 
 ![image](https://github.com/user-attachments/assets/36fa64ef-4e32-446c-a073-37dfccf58661)
 
